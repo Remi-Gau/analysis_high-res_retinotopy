@@ -1,0 +1,40 @@
+{
+    "STC_referenceSlice": [],
+    "anatReference": {
+        "type": "T1w",
+        "session": []
+    },
+    "contrastList": [],
+    "dataDir": "//home/remi/gin/V5_high-res/pilot_1/raw",
+    "derivativesDir": "",
+    "funcVoxelDims": [],
+    "groups": [""],
+    "model": {
+        "file": ""
+    },
+    "realign": {
+        "useUnwarp": true
+    },
+    "result": {
+        "Steps": {
+            "Level": "",
+            "Contrasts": {
+                "Name": "",
+                "Mask": false,
+                "MC": "FWE",
+                "p": 0.05,
+                "k": 0,
+                "NIDM": true
+            }
+        }
+    },
+    "skullstrip": {
+        "threshold": 0.75
+    },
+    "sliceOrder": [],
+    "space": "individual",
+    "subjects": [[]],
+    "taskName": "retinotopyDriftingBar",
+    "useFieldmaps": false,
+    "zeropad": 2
+}
